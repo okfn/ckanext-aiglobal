@@ -1,0 +1,11 @@
+{% ckan_extends %}
+
+{% block header_logo %}
+  <a class="logo" href="https://ai-global.org/">
+      <img src="/img/logo.png" alt="{{ g.site_title }}" title="{{ g.site_title }}" />
+  </a>
+  {% if g.site_description %}
+    <h2>{{ g.site_description }}</h2>
+  {% endif %} 
+{% endblock %}
+
